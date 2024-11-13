@@ -1,0 +1,95 @@
+div {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  background-color: bisque;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  margin: 0;
+  padding: 0;
+  
+  
+}
+
+#floor-plan{
+  background-color: bisque;
+  width: 90vw;
+  max-height: 80vh;
+  flex-direction: row;
+  justify-content: start;
+  align-items: start;
+}
+
+.bedroom {
+  background-color: aqua;
+  color: white;
+  max-width: 30vw;
+  max-height: 40%;
+}
+
+#kitchen{
+  width: 40%;
+  height: 60%;
+  background-color: brown;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: start;
+  gap: 25%;
+  padding: 0%;
+  color: white;
+}
+
+#oven{
+  width: 45%;
+  height: auto;
+  background-color: aquamarine;
+
+}
+
+#sink{
+  width: 45%;
+  height: auto;
+  background-color: green;
+}
+
+#livingroom{
+  max-width: 60%;
+  background-color: blueviolet;
+  color: white;
+  height: 60%;
+}
+
+#left-side{
+  width: 30vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+
+}
+
+#right-side {
+  width: 60vw;
+  height: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: end;
+  background-color: blueviolet;
+}
+
+.bathroom {
+  height: 20%;
+  max-width: 30vw;
+  background-color: yellow;
+
+}
+
+#cooker-cleaner{
+  width: 100%;
+  background-color: transparent;
+  height: auto;
+  flex-direction: row;
+}
